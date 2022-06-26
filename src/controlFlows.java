@@ -46,9 +46,9 @@ public class controlFlows {
         int n;
         for (n = 2; n <= num / 2; ++n) {
             if (num % n == 0) {
-                System.out.println(num + " is not a prime number.");
+                System.out.println(num + " е сложен број.");
             } else {
-                System.out.println(num + " is a prime number.");
+                System.out.println(num + " е прост број.");
             }
             break;
         }
